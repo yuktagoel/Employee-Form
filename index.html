@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form class="signup-form" id="form" action="/" method="get">
+
+        
+      <div class="form-header">
+        <img src="devrevlogo.jpeg" alt="">
+
+        <h1>Employee Registeration Account</h1>
+
+      </div>
+  
+
+        <div class="form-body">
+            <div class="row" >
+                <div class="group">
+                    <lable class="title">First Name</lable>
+                    <input type="text" class="form-input" id="name" placeholder="Enter your first Name">
+                    <div id="errorname" class="error"></div>
+
+                </div>
+                <div class="group">
+                        <lable class="title">Last Name</lable>
+                        <input type="text" class="form-input" id="last-name" placeholder="Enter your last Name">
+
+                </div>
+            </div>
+
+
+            <div class="row" id="first">
+                <div class="group">
+                    <lable class="title" >Email</lable>
+                    <input type="email" id="email" class="form-input" placeholder="Enter your first Name">
+                    <div id="erroremail"></div>
+
+                </div>
+                <div class="group" >
+                        <lable class="title">Address</lable>
+                        <input type="text" id="address" class="form-input" placeholder="Enter your Address">
+
+                </div>
+            </div>
+           
+
+            <div class="row" id="first">
+                <div class="group" >
+                    <lable class="title" >Password</lable>
+                    <input type="password" id="password" class="form-input" placeholder="Enter your password">
+                    <div id="errorpass" class="error"></div>
+
+                </div>
+                <div class="group">
+                        <lable class="title" >Confirm password</lable>
+                        <input type="password" id="password2" class="form-input" placeholder="Re-enter your password">
+                    <div id="errorpass2" class="error"></div>
+
+                </div>
+            </div>
+
+
+            
+
+            <div class="row">
+                <div class="group">
+                    <label class="title" >Gender</label>
+                    <div class="input-group gender-box" id="gender">
+                        <label for="male">
+                        <input type="radio" name="gender" value="male" id="male"> Male</label>
+                        <label for="female">
+                        <input type="radio" name="gender" value="female" id="female"> Female</label>
+                      
+                    </div> 
+                </div>
+                <div class="group">
+                    <lable class="title" id="status">Role</lable>
+                    <select class="form-input" id="status" >
+                        <option >Select</option>
+                        <option >UI/UX</option>
+                        <option >FRONT-END</option>
+                        <option >BACK-END</option>
+                      </select>
+                </div>
+            </div>
+
+
+         
+
+
+
+            <div class="row" >
+                <div class="group">
+                    <lable class="title">City</lable>
+                    <input type="text" class="form-input" placeholder="Enter your City Name" id="city">
+                </div>
+                <div class="group">
+                        <lable class="title">State</lable>
+                        <input type="text" class="form-input" placeholder="Enter your State Name" id="state">
+                </div>
+            </div>
+
+
+
+
+
+            <div class="row">
+                <div class="aggreement-box">
+                    <input type="checkbox" id="box" >
+                    <label class="title">I agree to the terms and policies.</label>
+                </div>
+        <button type="submit" id="submit" class="btn">Create</button>
+
+            </div>
+
+
+
+        </div>
+    </form>
+
+        
+
+<script src="scripts.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,143 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(227, 223, 223);
+  background-image: url('yellow.png');
+  background-repeat: no-repeat;
+
+
+}
+.error{
+  color: red;
+}
+.signup-form {
+  background-color: rgb(247, 243, 243);
+  width: min(100%, 650px);
+  margin: 30px auto;
+  border-radius: 10px;
+  border: 10px solid black;
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+label{
+  color: black;
+  font-size: large;
+}
+.form-header {
+  display: flex;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid white;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+img{
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align: center;
+  color: orange;
+  padding: 10px 0;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+}
+
+
+.group {
+  margin-bottom: 20px;
+  /* width: 300px; */
+}
+.form-body .title {
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.gender-box {
+  width: 15rem;
+}
+.form-body .form-input {
+  display: flex;
+  font-size: 17px;
+  box-sizing: border-box;
+  /* width: 100%; */
+  height: 34px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  text-align: left;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: white;
+  outline: none;
+}
+
+.form-input {
+  width: 15rem;
+  border-radius: 20px;
+
+}
+
+input {
+  padding: 5px;
+  flex-grow: 1;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
+
+
+.left {
+  float: left;
+  width: 250px;
+}
+
+.right {
+  float: right;
+  width: 250px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.group {
+  display: flex;
+  flex-flow: column;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.aggreement-box{
+  display: flex;
+  align-items: flex-start;
+}
+
+.form-footer{
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
