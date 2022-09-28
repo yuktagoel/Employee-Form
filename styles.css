@@ -1,12 +1,10 @@
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   background-color: rgb(227, 223, 223);
-  background-image: url('yellow.png');
+  background-image: url("yellow.png");
   background-repeat: no-repeat;
-
-
 }
-.error{
+.error {
   color: red;
 }
 .signup-form {
@@ -18,8 +16,10 @@ body{
   border-top: 2px solid black;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: min(90%, 900px);
 }
-label{
+label {
   color: black;
   font-size: large;
 }
@@ -32,8 +32,10 @@ label{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  flex-grow: 1;
+  width: min(35%, 600px);
 }
-img{
+img {
   box-sizing: border-box;
   height: 200px;
   width: 200px;
@@ -43,15 +45,15 @@ img{
   font-size: 30px;
   text-align: center;
   color: orange;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .form-body {
   display: flex;
   flex-direction: column;
   padding: 10px 40px;
+  flex-grow: 1;
 }
-
 
 .group {
   margin-bottom: 20px;
@@ -82,22 +84,20 @@ img{
 }
 
 .form-input {
-  width: 15rem;
+  /* width: 15rem; */
   border-radius: 20px;
-
 }
 
 input {
   padding: 5px;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   column-gap: 2rem;
 }
-
 
 .left {
   float: left;
@@ -130,13 +130,12 @@ input {
   flex-wrap: wrap;
 }
 
-
-.aggreement-box{
+.aggreement-box {
   display: flex;
   align-items: flex-start;
 }
 
-.form-footer{
+.form-footer {
   display: flex;
   justify-content: end;
   padding: 10px;
